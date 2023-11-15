@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="field">
+                <input type="text" name="Nome" placeholder="Nome Completo">
+            </div>
+            <div class="field">
+                <input type="text" name="Celular" placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div class="field">
+                <input type="email" name="Email" placeholder="e-mail para contato">
+            </div>
+            <div class="field">
+                <select name="Estado">
+                    <option disabled selected>Informe o seu Estado</option>
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Minas Gerais</option>
+                    <option>Espirito Santo</option>
+                </select>    
+            </div>
+            <div>
+                <h1>Qual sua profissão?</h1>
+                <div class="input">
+                    <div><input type="radio" name="cargo"><span>Front End</span></div>
+                    <div><input type="radio" name="cargo"><span>Back End</span></div>
+                    <div><input type="radio" name="cargo"><span>Full stack</span></div>
+                </div>
+            </div>
+            <div>
+                <h1>Qual sua linguagem?</h1>
+                <div class="input">
+                    <div><input type="checkbox" name="stack"><span>C#</span></div>
+                    <div><input type="checkbox" name="stack"><span>Java</span></div>
+                    <div><input type="checkbox" name="stack"><span>Python</span></div>
+                    <div><input type="checkbox" name="stack"><span>PHP</span></div>
+                </div>
+            </div>
+            <div>
+                <textarea placeholder="Conte um pouco sobre você"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="acao" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
