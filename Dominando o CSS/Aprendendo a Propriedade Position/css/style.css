@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+table{
+    position: fixed;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table > tbody{
+    text-align: center;
+}
+
+td{
+    border: 2px solid black;
+    height: 30px;
+}
+
+div{
+    margin: 250px auto;
+    width: 50%;
+    height: 700px;
+    background-color: aqua;
+}
+
+p{
+    color:black;
+}
+
+.div1{
+    height: 250px;
+    margin: 0 auto;
+}
